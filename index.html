@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/galle.css">
     <title>Instituto MRD</title>
 </head>
 <body>
     
-    <header class="continer_full">
+    <header class="header continer_full">
         <div class="top_header container_full">
 
         </div>
@@ -21,8 +22,16 @@
                         <img src="assets/img/Brand.png" alt="">
                     </a>
                 </div>
-
+                <div class="btn_menu">
+                    <i class="bi bi-list"></i>
+                </div>
                 <nav class="menu">
+                    <div class="header_logo_mobile">
+                        <a href="#">
+                            <img src="assets/img/Brand.png" alt="">
+                        </a>
+                        <i class="bi bi-x-lg" id="close_menu"></i>
+                    </div>
                     <ul class="menu_list">
                         <li>
                             <a href="#">Quem Somos</a>
@@ -96,12 +105,14 @@
                             </div>
                         </article>
                     </section>
-
-                    <a class="link_hist" href="#">Saiba mais ></a>
+                    <div class="bottom_hist">
+                        <a class="link_hist" href="#">Saiba mais ></a>
+                    </div>
                 </div>
 
                 <div class="hist_right f-50">
-                    <img src="assets/img/casa.png" alt="">
+                    <img class="hist_main_img" src="assets/img/casa.png" alt="">
+                    <img class="hist_float_img" src="assets/img/dot.png" alt="">
                 </div>
             </div>
         </section>
@@ -109,7 +120,7 @@
         <section class="wedo container_full d-flex">
             
             <div class="wedo_left f-50">
-                <img src="assets/img/we_do.png" alt="">
+                <img src="assets/img/we_do.jpg" alt="">
             </div>
 
             <div class="wedo_right f-50">
@@ -195,7 +206,7 @@
 
                 <article class="card_post">
                     <a href="#">
-                        <img src="assets/img/post.png" alt="">
+                        <img src="assets/img/post2.jpg" alt="">
 
                         <div class="post_info">
 
@@ -207,13 +218,13 @@
                 
                         <p class="post_bottom"> <time>10 julho</time> . <span>03</span> comentários</p>
 
-                        <span class="post_cat bg-purple">Blog</span>
+                        <span class="post_cat bg-purple">Notícias</span>
                     </a>
                 </article>
 
                 <article class="card_post">
                     <a href="#">
-                        <img src="assets/img/post.png" alt="">
+                        <img src="assets/img/post3.jpg" alt="">
 
                         <div class="post_info">
 
@@ -225,13 +236,13 @@
                 
                         <p class="post_bottom"> <time>10 julho</time> . <span>03</span> comentários</p>
 
-                        <span class="post_cat bg-blue">Blog</span>
+                        <span class="post_cat bg-blue">Eventos</span>
                     </a>
                 </article>
 
                 <article class="card_post">
                     <a href="#">
-                        <img src="assets/img/post.png" alt="">
+                        <img src="assets/img/post4.jpg" alt="">
 
                         <div class="post_info">
 
@@ -243,13 +254,13 @@
                 
                         <p class="post_bottom"> <time>10 julho</time> . <span>03</span> comentários</p>
 
-                        <span class="post_cat bg-purple">Blog</span>
+                        <span class="post_cat bg-purple">Notícias</span>
                     </a>
                 </article>
 
                 <article class="card_post">
                     <a href="#">
-                        <img src="assets/img/post.png" alt="">
+                        <img src="assets/img/post5.jpg" alt="">
 
                         <div class="post_info">
 
@@ -261,13 +272,13 @@
                 
                         <p class="post_bottom"> <time>10 julho</time> . <span>03</span> comentários</p>
 
-                        <span class="post_cat bg-blue">Blog</span>
+                        <span class="post_cat bg-blue">Eventos</span>
                     </a>
                 </article>
 
                 <article class="card_post">
                     <a href="#">
-                        <img src="assets/img/post.png" alt="">
+                        <img src="assets/img/post6.jpg" alt="">
 
                         <div class="post_info">
 
@@ -279,7 +290,7 @@
                 
                         <p class="post_bottom"> <time>10 julho</time> . <span>03</span> comentários</p>
 
-                        <span class="post_cat bg-blue">Blog</span>
+                        <span class="post_cat bg-blue">Notícias</span>
                     </a>
                 </article>
                 
@@ -307,35 +318,35 @@
                         </div>
                        
                     </article>
-                    <article class="card_pilares">
+                    <article class="card_pilares b-bot-green">
                         <img src="assets/img/arrow-green.png" alt="">
                         <div class="card_pilares_info">
                             <h3>Acolhimento</h3>
                             <p>Abraçar, ouvir as histórias e mostrar o quanto estes jovens são importantes. O apoio estimula capacidades socioemocionais, como a empatia.</p>
                         </div>
                     </article>
-                    <article class="card_pilares">
+                    <article class="card_pilares b-bot-blue">
                         <img src="assets/img/arrow-blue.png" alt="">
                         <div class="card_pilares_info">
                             <h3>Acolhimento</h3>
                             <p>Abraçar, ouvir as histórias e mostrar o quanto estes jovens são importantes. O apoio estimula capacidades socioemocionais, como a empatia.</p>
                         </div>
                     </article>
-                    <article class="card_pilares">
+                    <article class="card_pilares b-bot-orange">
                         <img src="assets/img/arrow-orange.png" alt="">
                         <div class="card_pilares_info">
                             <h3>Acolhimento</h3>
                             <p>Abraçar, ouvir as histórias e mostrar o quanto estes jovens são importantes. O apoio estimula capacidades socioemocionais, como a empatia.</p>
                         </div>
                     </article>
-                    <article class="card_pilares">
+                    <article class="card_pilares b-bot-yellow">
                         <img src="assets/img/arrow-yellow.png" alt="">
                         <div class="card_pilares_info">
                             <h3>Acolhimento</h3>
                             <p>Abraçar, ouvir as histórias e mostrar o quanto estes jovens são importantes. O apoio estimula capacidades socioemocionais, como a empatia.</p>
                         </div>
                     </article>
-                    <article class="card_pilares">
+                    <article class="card_pilares b-bot-purple">
                         <img src="assets/img/arrow-purple.png" alt="">
                         <div class="card_pilares_info">
                             <h3>Acolhimento</h3>
@@ -508,7 +519,10 @@
                 </div>
 
                 <div class="our_right f-50">
-                    <img src="assets/img/Video.png" alt="">
+                    <video width="" height="" controls>
+                        <source src="assets/videos/video.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      </video>
                 </div>
             </div>
 
@@ -517,29 +531,106 @@
                     <img src="assets/img/frame.png" alt="">
                 </div>
                 <div class="our_gallery_right f-50 d-flex">
-                    <div class="card_gallery f-50">
+                    <div class="card_gallery">
                         <img src="assets/img/gal1.png" alt="">
                     </div>
-                    <div class="card_gallery f-50">
+                    <div class="card_gallery">
                         <img src="assets/img/gal2.png" alt="">
                     </div>
-                    <div class="card_gallery f-50">
+                    <div class="card_gallery">
                         <img src="assets/img/gal3.png" alt="">
                     </div>
-                    <div class="card_gallery f-50">
-                        <img src="assets/img/gal4         .png" alt="">
+                    <div class="card_gallery">
+                        <img src="assets/img/gal4.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h3>Testemunhos</h3>
-                <h2>Muito mais do que palavras</h2>
-                <p>Veja o que as pessoas estão falando do Instituto MRD.</p>
+        <section class="testi container_full">
+            <header class="header_testi container">
+                <h3 class="subtitle-default">Testemunhos</h3>
+                <h2 class="title-default">Muito mais do que palavras</h2>
+                <p class="desc-default">Veja o que as pessoas estão falando do Instituto MRD.</p>
+            </header>
 
+            <div class="testi container_full">
+                <div class="row_testi_top d-flex">
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                        
+                    </article>
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi2.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi3.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                    </article>
+                </div>
 
+                <div class="row_testi_bottom d-flex">
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi7.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi5.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi4.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item_testi">
+                        <div class="card_testi">
+                            <img src="assets/img/testi6.png" alt="">
+                            <div class="testi_desc">
+                                <i class="bi bi-quote"></i>
+                                <p>“Não há nada melhor do que ver o sorriso no rosto das crianças. Essas ações realmente transformam vidas. Estão de parabéns!”</p>
+                                <strong>Carlos Eduardo</strong>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 
@@ -586,13 +677,13 @@
 
     </main>
 
-    <footer>
-        <div>
-            <div>
-                <img src="" alt="">
+    <footer class="footer container_full">
+        <div class="footer_content container d-flex">
+            <div class="logo_footer">
+                <img src="assets/img/Brand.png" alt="">
             </div>
 
-            <div>
+            <div class="menu_footer">
                 <h3>Menus</h3>
                 <ul>
                     <li>
@@ -616,33 +707,45 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="contato_footer">
 
                 <h3>Contato</h3>
 
                 <ul>
                     <li>
-                        <p></p>
+                        <p><i class="bi bi-geo-alt"></i> Sebastião Maria da Silva, 166 - Átila de Paiva</p>
                     </li>
                     <li>
-                        <a href="tel:+"></a>
+                        <a href="tel:+5531999511778"><i class="bi bi-telephone"></i> (31) 9 9951-1778</a>
                     </li>
                     <li>
-                        <a href="mailto:"></a>
+                        <a href="mailto:intitutomrd@institutomrd.com"><i class="bi bi-envelope"></i> intitutomrd@institutomrd.com</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div>
-            <p>® 2022 Insituto MRD Designed by MRD</p>
+        <div class="footer_bottom">
+            <div class="footer_bottom_content container">
+                <p>© 2022 Insituto MRD Designed by MRD</p>
 
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+                <ul class="social_footer">
+                    <li>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
         </div>
     </footer>
+
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
