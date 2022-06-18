@@ -50,6 +50,9 @@ a{
 .f-50{
     flex-basis: 50%;
 }
+.f-100{
+    flex-basis: 100%!important;
+}
 .color-text{
     color: var(--color-text);
 }
@@ -108,6 +111,12 @@ a{
 .bg-green{
     background-color: var(--color-green);
 }
+.color-green{
+    color: var(--color-green);
+}
+.bg-gray{
+    background-color: var(--color-text);
+}
 .btn-gray{
     background-color: var(--color-text);
     color: var(--color-white);
@@ -153,14 +162,12 @@ header.header{
     color: var(--color-black-one);
 }
 
-.hero{
+.hero, .m-carousel{
     height: 520px;
-    background-image: url('../img/Banner2.png');
     background-position: center;
     background-size: cover;
 }
 .hero_content{
-    padding: 10px 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -509,6 +516,10 @@ header.header{
 .icons_oferes{
     padding: 40px 0;
 }
+.icons_ofer h3{
+    padding: 10px;
+    font-weight: 600;
+}
 .card_ofer{
     flex-basis: 138px;
     margin-right: 60px;
@@ -591,7 +602,7 @@ form.form{
     color: var(--color-text);
     font-size: .9em;
 }
-.form_group input, .form_group select{
+.form_group input, .form_group select, .form_group textarea{
     width: 100%;
     border: none;
     outline: none;
@@ -661,6 +672,9 @@ form.form{
 .testi{
     padding: 0 10px 60px;
     overflow: hidden;
+}
+.testi_show{
+    width: 100%;
 }
 .header_testi{
     text-align: center;
@@ -860,7 +874,9 @@ form.form{
     display: none;
 }
 
-
+.posts{
+    justify-content: space-between;
+}
 
 
 /* style page quem somos */
@@ -928,6 +944,33 @@ form.form{
 }
 /* style page quem somos */
 
+
+/* carousel home */
+.m-carousel{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.m-carousel .item_banner{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.m-carousel .item_banner img{
+    height: 520px;
+    width: 100%;
+    object-fit: cover;
+}
+.m-carousel .item_banner a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* carousel home */
 
 @media(max-width: 1024px){
     .card_wedo{
@@ -998,6 +1041,7 @@ form.form{
     }
     .header_logo_mobile img{
         max-width: 140px;
+        margin-top: 10px;
     }
     .header_logo_mobile i{
         font-size: 1.6em;
@@ -1006,8 +1050,8 @@ form.form{
 }
 
 @media(max-width: 768px){
-    .hero{
-        height: 400px;
+    .hero, .m-carousel .item_banner img{
+        height: 400px!important;
     }
     .f-50{
         flex-basis: 100%;
@@ -1093,8 +1137,8 @@ form.form{
 }
 
 @media(max-width: 600px){
-    .hero{
-        height: 320px;
+    .hero, .m-carousel .item_banner img{
+        height: 320px!important;
     }
     .hist_left .link_hist{
         margin: auto;
@@ -1215,8 +1259,8 @@ form.form{
 }
 
 @media(max-width: 420px){
-    .hero{
-        height: 200px;
+    .hero, .m-carousel .item_banner img{
+        height: 200px!important;
     }
     .card_simple{
         align-items: flex-start;
