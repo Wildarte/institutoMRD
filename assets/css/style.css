@@ -573,6 +573,9 @@ header.header{
 .card_oferes img{
     width: 100%;
 }
+.card_oferes h3{
+    padding: 10px;
+}
 .card_oferes:hover img{
     box-shadow: 2px 2px 15x #ddd;
 }

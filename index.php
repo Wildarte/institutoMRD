@@ -418,22 +418,28 @@
     
                 <div class="oferes_right">
                     <article class="card_oferes">
-                        <img src="assets/img/card_oferes.png" alt="">
+                        <img src="assets/img/card_oferes1.jpg" alt="">
+                        <h3 class="desc-default">Professor de Português</h3>
                     </article>
                     <article class="card_oferes">
-                        <img src="assets/img/card_oferes2.png" alt="">
+                        <img src="assets/img/card_oferes2.jpg" alt="">
+                        <h3 class="desc-default">Professor de Matemática</h3>
                     </article>
                     <article class="card_oferes">
-                        <img src="assets/img/card_oferes3.png" alt="">
+                        <img src="assets/img/card_oferes3.jpg" alt="">
+                        <h3 class="desc-default">Monitor</h3>
                     </article>
                     <article class="card_oferes">
-                        <img src="assets/img/card_oferes4.png" alt="">
+                        <img src="assets/img/card_oferes4.jpg" alt="">
+                        <h3 class="desc-default">Professor de artes marciais</h3>
                     </article>
                     <article class="card_oferes">
-                        <img src="assets/img/card_oferes5.png" alt="">
+                        <img src="assets/img/card_oferes5.jpg" alt="">
+                        <h3 class="desc-default">Professor de Ingês</h3>
                     </article>
                     <article class="card_oferes">
-                        <img src="assets/img/card_oferes6.png" alt="">
+                        <img src="assets/img/card_oferes6.jpg" alt="">
+                        <h3 class="desc-default">Professor de  música</h3>
                     </article>
                 </div>
             </div>

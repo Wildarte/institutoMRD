@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="hist_right f-50">
-                    <img class="hist_main_img" src="assets/img/casa.png" alt="">
+                    <img class="hist_main_img" src="assets/img/casa2.png" alt="">
                 </div>
             </div>
         </section>
@@ -49,6 +49,34 @@
 
             </div>
             
+        </section>
+
+        <section class="section_gallery container_full">
+
+            <div class="board_gallery" style="max-width: 920px; margin: auto">
+                <div class="gall-container">
+                   
+                    <img class="frame_img" id="expandedImg" src="assets/img/gallery1.jpg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
+                  
+                  <!-- The four columns -->
+                <div class="gall-row">
+                    <div class="gall-column">
+                      <img src="assets/img/gallery1.jpg" alt="photo 1" style="" onclick="myFunction(this);">
+                    </div>
+                    <div class="gall-column">
+                      <img src="https://cdn.pixabay.com/photo/2015/06/22/08/38/children-817368_960_720.jpg" alt="photo2" style="" onclick="myFunction(this);">
+                    </div>
+                    <div class="gall-column">
+                      <img src="https://cdn.pixabay.com/photo/2016/11/29/11/45/children-1869265_960_720.jpg" alt="photo 3" style="" onclick="myFunction(this);">
+                    </div>
+                    <div class="gall-column">
+                      <img src="https://cdn.pixabay.com/photo/2014/09/26/09/33/girls-462072_960_720.jpg" alt="photo 4" style="" onclick="myFunction(this);">
+                    </div>
+                </div>
+            </div>
+
         </section>
 
 
@@ -81,33 +109,7 @@
             </div>
         </section>
 
-        <section class="section_gallery container_full">
-
-            <div class="board_gallery container">
-                <div class="gall-container">
-                   
-                    <img id="expandedImg" src="assets/img/gallery1.jpg" style="width:100%">
-                    <div id="imgtext"></div>
-                </div>
-                  
-                  <!-- The four columns -->
-                <div class="gall-row">
-                    <div class="gall-column">
-                      <img src="assets/img/gallery1.jpg" alt="photo 1" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                    <div class="gall-column">
-                      <img src="https://cdn.pixabay.com/photo/2015/06/22/08/38/children-817368_960_720.jpg" alt="photo2" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                    <div class="gall-column">
-                      <img src="https://cdn.pixabay.com/photo/2016/11/29/11/45/children-1869265_960_720.jpg" alt="photo 3" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                    <div class="gall-column">
-                      <img src="https://cdn.pixabay.com/photo/2014/09/26/09/33/girls-462072_960_720.jpg" alt="photo 4" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                </div>
-            </div>
-
-        </section>
+        
 
     </main>
 
